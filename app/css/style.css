@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Darkblue: hsl(249, 10%, 26%);
+  --Grayishblue: hsl(246, 25%, 77%);
+}
+
+.div {
+  font-family: monospace;
+}
+.divh1 {
+  /* text-justify: auto;
+  font-size: 30px;
+  border-radius: 20px;
+  justify-content: center; */
+  /* margin-left: 4rem; */
+  /* margin-right: 1rem; */
+  font-size: 3rem;
+  padding: 0 7rem 1rem 0;
+}
+
+.divp {
+  margin-top: 14px;
+  justify-content: center;
+
+  align-items: center;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.div1 {
+  border-radius: 30px;
+  font-weight: 100;
+  font-size: 600px;
+}
+
+.form {
+  padding-top: 2rem;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  height: 380px;
+  width: 500px;
+  color: var(--Darkblue);
+}
+.BTN {
+  background-color: var(--Green);
+  cursor: pointer;
+  width: 90%;
+  color: white;
+}
+
+body {
+  background-image: url("../../images/bg-intro-desktop.png");
+
+  background-color: var(--Red);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px;
+  gap: 50px;
+  color: white;
+}
+
+.freeplan {
+  background-color: var(--Blue);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.freeplan a {
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-size: 0.8rem;
+
+  /* for centering the text inside the link */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freeplan span {
+  color: var(--Grayishblue);
+  margin-left: 0.4rem;
+}
+
+form input {
+  width: 100%;
+  display: block;
+  margin: 1.5rem 0;
+  padding: 1.2rem;
+  border: 1px var(--Grayishblue) solid;
+  border-radius: 8px;
+}
+
+.form {
+  padding: 2rem;
+  /* width: 100%; */
+  height: 80%;
+  min-height: 300px;
+}
+
+button {
+  width: 100%;
+  background-color: var(--Green);
+  font-size: 0.8rem;
+  color: white;
+  padding: 1rem;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.form p {
+  padding-top: 14px;
+  color: var(--Grayishblue);
+  padding-right: 3rem;
+  padding-left: 3rem;
+  font-size: 0.9rem;
+  font-family: monospace;
+  line-height: 1.3rem;
+}
+
+form > p span {
+  color: var(--Red);
+  font-weight: bold;
+}
+
+/* .first {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.second {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.third {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.fourth {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.DIV1 input {
+  display: block;
+}
+.span {
+  color: var(--Red);
+}
+.span1 {
+  color: var(--Grayishblue);
+} */
+
+@media screen and (max-width: 800px) {
+  .main {
+    display: block;
+  }
+
+  .div {
+    width: 100%;
+    margin: 0;
+    gap: 0;
+  }
+
+  .div1 {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+}
